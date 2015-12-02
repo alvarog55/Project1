@@ -38,9 +38,7 @@ input[type="checkbox"] + label span {
     background:url(check_radio_sheet.png) left top no-repeat;
     cursor:pointer;
 }
-input[type="open"]:checked + label span {
-    background:url(https://cdn2.iconfinder.com/data/icons/media-and-navigation-buttons-square/512/Button_11-512.png) -19px top no-repeat;
-}
+
 
 .panel {
   font-size: 12px;
@@ -55,6 +53,11 @@ input[type="open"]:checked + label span {
   height: 45px;
 }
 
+.panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 13px;
+}
 .btn {
    color: white;
    background-color: #9DC4C4;
@@ -84,4 +87,5 @@ input[type="open"]:checked + label span {
 }
 .abschicken {
 	text-align: center;
+	padding-top: 22px;
 }
