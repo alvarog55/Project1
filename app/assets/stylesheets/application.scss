@@ -1,0 +1,82 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+html {
+    width: 100%;
+    height: 100%;
+}
+body {
+  width: 100%;
+  height: 200%;
+  margin-top: -20px;
+  background: #EFF0F0;
+}
+
+.date-title{
+  padding-top: 100px;
+  text-align: center;
+  color:#646E6E;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 30px;
+
+  /*text-shadow: -2px -1px #646E6E;*/
+}
+.election {
+margin-left: 30%;
+font-family: 'Source Sans Pro', sans-serif;
+color:#646E6E;
+
+}
+
+input[type="checkbox"] + label span {
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-1px 4px 0 0;
+    vertical-align:middle;
+    background:url(check_radio_sheet.png) left top no-repeat;
+    cursor:pointer;
+}
+input[type="checkbox"]:checked + label span {
+    background:url(check_radio_sheet.png) -19px top no-repeat;
+}
+
+.panel {
+  font-size: 12px;
+  color: #646E6E;
+  background-color: white;
+  border: none;
+  margin-left: 30%;
+  margin-right: 30%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.panel-body {
+  height: 45px;
+}
+
+.btn {
+   border-top: 1px solid #969696;
+   padding: 5px 10px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 3px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white !important;
+   font-size: 14px;
+   text-decoration: none;
+   vertical-align: middle;
+   background-color: #9DC4C4;
+   border: none;
+}
+
+button:active {
+    background-color:#9DC4C4;
+}
+
+.abschicken {
+	text-align: center;
+}
