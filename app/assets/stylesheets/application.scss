@@ -35,7 +35,7 @@ input[type="checkbox"] + label span {
     height:19px;
     margin:-1px 4px 0 0;
     vertical-align:middle;
-    background:url(check_radio_sheet.png) left top no-repeat;
+    background:url(OSX-Checkbox-ON@2x.png) left top no-repeat;
     cursor:pointer;
 }
 
@@ -71,6 +71,12 @@ input[type="checkbox"] + label span {
    box-shadow: 0px 2px 0px #84ABAB;
 }
    
+.cook{
+	float: left;
+}
+.restaurant{
+	float: right;
+}
 
 .btn:active {
     background-color:#1E4545;

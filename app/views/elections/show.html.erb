@@ -6,51 +6,63 @@
 
 <div class="election">
           <p> Hallo <span><%= @current_user%></span> <%= @election %></p>
-      </div>
+</div>
   
-
-  <div class="panel panel-default">
-  <div class="panel-body">
-    <input type="checkbox" id="c1" name="cc" />
-    <label for="c1"><%=@option %></label>
-    <span class="glyphicon glyphicon-cutlery" aria-hidden="true"></span>
-  </div>
+<div class="panel panel-default">
+	<div class="panel-body">
+    	<input type="checkbox" id="c1" name="cc" />
+    	<label for="c1"><%=@option %></label>
+    	<span class="glyphicon glyphicon-cutlery" aria-hidden="true"></span>
+  	</div>
 </div>
 
 <div class="panel panel-default">
-  <div class="panel-body">
-    <input type="checkbox" id="c1" name="cc" />
-    <label for="c1"><%= @option %></label>
-  </div>
+  	<div class="panel-body">
+	    <input type="checkbox" id="c1" name="cc" />
+	    <label for="c1"><%= @option %></label>
+  	</div>
 </div>
+
 <div class="panel panel-default">
-  <div class="panel-body">
-    <input type="checkbox" id="c1" name="cc" />
-    <label for="c1"><%= @option %></label>
-  </div>
+  	<div class="panel-body">
+	    <input type="checkbox" id="c1" name="cc" />
+	    <label for="c1"><%= @option %></label>
+	</div>
 </div>
+
 <div class="panel panel-default">
-  <div class="panel-body">
-    <input type="checkbox" id="c1" name="cc" />
-    <label for="c1"><%= @option %></label>
-  </div>
+  	<div class="panel-body">
+	    <input type="checkbox" id="c1" name="cc" />
+	    <label for="c1"><%= @option %></label>
+  	</div>
 </div>
 
 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-          <div class="panel">
-            <div class="panel-heading" role="tab" id="headingOne">
-              <p class="panel-title">
-        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          <span class="glyphicon glyphicon-plus-sign"></span></a>
-    	<label for="c1">Vorschlag Eintragen</label>
-      </p>
+    <div class="panel">
+        <div class="panel-heading" role="tab" id="headingOne">
+            <p class="panel-title">
+        		<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          			<span class="glyphicon glyphicon-plus-sign"></span>
+          		</a>
+    			<label for="c1">Vorschlag Eintragen</label>
+      		</p>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+            <div class="panel-body">
+                <form action="option">
+                	<p class="cook">
+						<input type="radio" name="eat" value="cook"> Ich möchte kochen...
+					</p>
+					
+					<p class="restaurant">
+						<input type="radio" name="eat" value="restaurant"> Ich möchte hier Essen gehen...
+					</p>
+				</form>
             </div>
-            <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-              <div class="panel-body">
-                wwww
-              </div>
-            </div>
-          </div>
+        </div>
+    </div>
+</div>
+
 <div class="abschicken">
 <button type="button" class="btn btn-success"><b>Abschicken</b></button>
 </div>
