@@ -62,9 +62,10 @@ a:hover {
     font-size: 13px;
 }
 
-.panel-group .panel-heading + .panel-collapse > .panel-body {
-    border-top: 1px solid #ddd;
-    height: 260px;
+#heading .content {
+    display: none;
+    padding : 5px;
+    height: 312px;
 }
 .btn {
    color: white;
@@ -152,4 +153,11 @@ textarea:focus, .trans:focus, .trans2:focus{
 
 #bottom-option {
 	display: inline-block;
+}
+
+hr {
+    margin-top: 2px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eeeeee;
 }
