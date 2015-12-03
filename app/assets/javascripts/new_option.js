@@ -14,5 +14,13 @@ $(document).ready(function(){
 	    $(".glyphicon").show();
 	});
 
+	$("#cook").click(function () {
+	   $("#cook-title").text("GERICHT");
+	});
+
+	$("#restaurant").click(function () {
+	    $("#cook-title").text("RESTAURANT");
+	});
+
 });
 
