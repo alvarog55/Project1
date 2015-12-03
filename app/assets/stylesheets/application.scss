@@ -64,7 +64,7 @@ a:hover {
 
 .panel-group .panel-heading + .panel-collapse > .panel-body {
     border-top: 1px solid #ddd;
-    height: 218px;
+    height: 260px;
 }
 .btn {
    color: white;
@@ -140,4 +140,16 @@ textarea:focus, .trans:focus, .trans2:focus{
 .abschicken {
 	text-align: center;
 	padding-top: 22px;
+}
+
+.keep-rest {
+	padding-top: 29px;
+}
+.cancel-ready {
+	float: right;
+	padding-top: 22px;
+}
+
+#bottom-option {
+	display: inline-block;
 }
