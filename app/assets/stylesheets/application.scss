@@ -39,6 +39,9 @@ input[type="checkbox"] + label span {
     cursor:pointer;
 }
 
+a:hover {
+	text-decoration: none;
+}
 
 .panel {
   font-size: 12px;
@@ -58,6 +61,11 @@ input[type="checkbox"] + label span {
     margin-bottom: 0;
     font-size: 13px;
 }
+
+.panel-group .panel-heading + .panel-collapse > .panel-body {
+    border-top: 1px solid #ddd;
+    height: 218px;
+}
 .btn {
    color: white;
    background-color: #9DC4C4;
@@ -76,6 +84,44 @@ input[type="checkbox"] + label span {
 }
 .restaurant{
 	float: right;
+}
+
+#dish {
+	background-color: #EAEAEA;
+	width: 100%;
+    height: 57px;
+    margin-left: 0;
+}
+
+#recipt {
+	background-color: #E1EDED;
+	width: 100%;
+    height: 57px;
+    margin-left: 0;
+}
+
+.input-title {
+	color:#B1B6B6;
+	font-size: 9px;
+	margin-top: -11px;
+}
+
+.trans, {
+	text-decoration: none;
+	background-color: #EAEAEA;
+	border: 0px solid;
+	width:100%;
+}
+
+.trans2, {
+	text-decoration: none;
+	background-color: #E1EDED;
+	border: 0px solid;
+	width:100%;
+}
+
+textarea:focus, .trans:focus, .trans2:focus{
+    outline: 0;
 }
 
 .btn:active {
